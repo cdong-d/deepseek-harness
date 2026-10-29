@@ -18,7 +18,7 @@ Review the [safety notice](SAFETY.md) before running the project.
 
 ### Run from `npm`
 
-Install `Node.js`, then run:
+Install Node.js 24.9 or newer, then run:
 
 ```sh
 npx @deepseek-ai/dsh web
@@ -28,7 +28,7 @@ The command starts the Web UI at `http://127.0.0.1:3080` by default and opens it
 
 ### Run from source
 
-To run from a repository checkout:
+To run from a repository checkout, with Node.js 24.9 or newer and [pnpm](https://pnpm.io/installation) available:
 
 ```sh
 git clone https://github.com/deepseek-ai/deepseek-harness.git
